@@ -15,7 +15,11 @@ const {cartItems}= usecontext();
     <>
     <Navbar bg="secondary" expand="lg" className='fs-4 ' >
       <Container>
-        <Navbar.Brand href="" className='me-10 fs-4' >React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="" className='me-10 fs-4' >
+        <Link to="/"  className='hi' >
+        React-Bootstrap
+              </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto me-5 ">
