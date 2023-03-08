@@ -45,7 +45,8 @@ const  update = allImage.map(photo => { if(photo.id == id){
     toggle,
     Addcart,
     Removecart,
-    cartItems
+    cartItems,
+    setCartitem
 
    }}    
    
