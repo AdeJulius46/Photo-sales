@@ -33,7 +33,11 @@ main.cart-page {
 .cart-page > h1 {
   text-align: center;
 }
-
+.overlay{
+   width: 95%; 
+   position: fixed;
+   z-index: 1;
+}
 .cart-page .total-cost {
   text-align: right;
   font-size: 1.3em;
