@@ -34,9 +34,8 @@ main.cart-page {
   text-align: center;
 }
 .overlay{
-   width: 95%; 
    position: fixed;
-   z-index: 1;
+   z-index: 7;
 }
 .cart-page .total-cost {
   text-align: right;
