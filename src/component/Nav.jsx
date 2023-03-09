@@ -13,7 +13,7 @@ const {cartItems}= usecontext();
   const julius = cartItems.length > 0 ? "ri-shopping-cart-fill ri-fw ri-1.5":"ri-shopping-cart-line ri-fw ri-1.5x"
   return (
     <>
-    <Navbar bg="secondary" expand="lg" className='fs-4 ' >
+    <Navbar bg="secondary" expand="lg" className='fs-4 overlay' >
       <Container>
         <Navbar.Brand href="" className='me-10 fs-4' >
         <Link to="/"  className='hi' >
